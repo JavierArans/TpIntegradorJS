@@ -1,0 +1,76 @@
+
+body{
+    padding-top: 80px;
+    min-width: 500px;
+    
+    
+}
+.barra{
+    max-width: 400px;
+}
+.logo {
+    width: 35%;
+
+  
+}
+
+
+.boton{
+    background-color: rgb(97, 161, 14);
+    outline:none;
+    border: 0;
+}
+
+
+.position-absolute {
+    margin-top: 80px;
+     
+}
+.responsive-text{
+    font-size: 2rem;
+    @media screen and (max-width: 700px) {
+        font-size: 24px
+    }
+    @media screen and (max-width: 560px) {
+        font-size: 18px
+    }
+
+}
+
+.responsive-text2{
+    font-size: 0.9rem;
+    @media screen and (max-width: 700px) {
+        font-size: 12px
+    }
+    @media screen and (max-width: 560px) {
+        font-size: 0.7rem;
+    }
+  
+    
+    
+}
+.responsive-text3{
+    font-size: 1rem;
+    @media screen and (max-width: 900px) {
+        font-size: 0.6rem
+    }
+    @media screen and (max-width: 480px) {
+        font-size: 0.5rem
+    }
+  
+    
+}
+.footer{
+    background-color: rgb(42, 92, 112);
+}
+.caja{
+    background-color: rgb(69, 69, 69);
+}
+.img{
+    filter: brightness(45%)
+}
+.Total{
+    background-color: rgb(176, 215, 239);
+    vertical-align:middle 
+}
+
