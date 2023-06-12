@@ -38,11 +38,12 @@ function reset(){
     let apellido = document.getElementById("apellido").value;
     let email = document.getElementById("email").value;
 
-function validar(evento){
-    
+/*function validar(evento){
+    if ((document.getElementById("nombre").value) === ""){
+        alert("Ingrese su Nombre");
+    } else {calculo();}
 }
-
-
+*/
 
 function calculo(evento){
     let ticket = 200;
