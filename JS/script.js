@@ -28,16 +28,18 @@ function reset(){
 }
 */
 
-let btnResumen = document.getElementById("resumen");
-btnResumen.addEventListener("click", calculo);
+    let btnResumen = document.getElementById("resumen");
+    btnResumen.addEventListener("click", calculo);
 
-let btnReset = document.getElementById("reset");
+    let btnReset = document.getElementById("reset");
     btnReset.addEventListener("click", reset);
-
-function validar(evento){
+   
     let nombre = document.getElementById("nombre").value;
     let apellido = document.getElementById("apellido").value;
     let email = document.getElementById("email").value;
+
+function validar(evento){
+    
 }
 
 
